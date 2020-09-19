@@ -1,0 +1,63 @@
+2014-07-16 
+  Installed exiftool, played with the camera (home dir camera created)
+  Learned about omxplayer - played back "100 Sekunden Tagesschau" ;-)
+
+2014-07-18
+  hostname -I shows the IP address!
+  Installed tightvncserver, created scripts for starting to export display 0 (and stopping...)
+  Changed password: passwd ...
+  Set up NoIP.com account (hapebe / hapebe.ddns.net) and tried to set up SSH port forwarding to PI in fritz.box
+  nslookup: sudo apt-get install dnsutils
+(created a backup copy of the SD card using HDDRawCopy)
+  installed apache2, php5, mysql
+
+2014-07-27
+  played with sysadmincasts video tutorial on grep, awk, sort, uniq,
+  head, tail - see ./log-analysis folder...
+
+2014-08-12
+  resumed working with VNC via SSH tunnel (~/vncserver-start.sh)
+  read about development for Moodle - visited PHPUnit and Selenium...
+  tried backups by mtime - see ~/backup/backup-modified-14.sh
+
+2015-07-03
+  I'm back, nearly a year later!
+  reset the raspberry's pi password using the int=/bin/sh trick
+  restored the backup copy from the previous year
+  learnt about "deltree": rm -rf <directory>
+  used WinSShFS with the raspberry
+  took yet another cam picture...
+
+2015-08-01
+  Re-activated VNC & updated system (dist-upgrade)
+
+2015-08-03
+  Using wget to fetch webcam pics from Hiddensee;
+  installed the imagemagick package;
+  Ubuntu: kill -9 -1 from a text terminal takes you back to the GUI login screen (useful if the X system "hangs")
+  next trying to use scp to get a copy of the image files to Ubuntu...
+
+2015-10-10 
+  Installed WLAN adapter (Realtek Semiconductor Corp. RTL8188CUS 802.11n WLAN Adapter) on the Raspberry, connected to Fritz!BOX.
+  related: sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+2016-02-07
+  Resuming experiments on a Raspberry Pi 2 Model B
+  Explorig GPIO incl. hardware on the old Pi!
+  e.g. https://github.com/frasertmay/RPiGPIOTutorials
+  e.g. https://www.modmypi.com/raspberry-pi/set-up-kits/project-kits/raspberry-pi-youtube-workshop-kit
+  e.g. http://elinux.org/RPi_Low-level_peripherals
+
+2016-02-08
+  carried Leonie-Pi to my work LAN and discovered it headless by using:
+  nmap -p 22 --open -sV 192.168.80.0/24 > sshservers
+
+2016-02-21
+  find out Ubuntu version:
+  lsb_release -a
+  find out GNOME version:
+  gnome-session --version
+
+2016-02-23
+  local port scan: sudo nmap -sT -O localhost
+  SSH tunneling from work PC to Leonie pi: success!
