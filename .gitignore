@@ -1,1 +1,5 @@
 *.log
+.vars
+.urls
+.keys
+.secret
