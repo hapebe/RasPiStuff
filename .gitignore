@@ -3,3 +3,6 @@
 .urls
 .keys
 .secret
+
+polarlys/**.jpg
+polarlys/**.json
