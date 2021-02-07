@@ -9,7 +9,7 @@ systemctl disable dhcpcd
 
 ## Ethernet bridges in debian
 
-Credits to (https://wiki.debian.org/BridgeNetworkConnections) .
+Credits to [https://wiki.debian.org/BridgeNetworkConnections] .
 
 The whole time I was using the built-in Ethernet port of the Raspi to remote control it via SSH. By the way `geany` worked quite well via X forwarding!
 
