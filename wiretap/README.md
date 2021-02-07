@@ -30,7 +30,7 @@ ip link set br0 up
 
 As noted above, this did not / will not work with an active DHCP client daemon service.
 
-See my specific config in: [interfaces](/etc/network/interfaces) .
+See my specific config in: [/etc/network/interfaces](interfaces) .
 
 ## Disable IPv6
 
