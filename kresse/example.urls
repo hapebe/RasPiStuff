@@ -1,0 +1,4 @@
+BASEURL=http://{{your IP webcam server URL goes here}}
+
+FOCUSURL=${BASEURL}/focus
+KRESSEURL=${BASEURL}/photo.jpg

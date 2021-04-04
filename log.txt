@@ -61,3 +61,15 @@
 2016-02-23
   local port scan: sudo nmap -sT -O localhost
   SSH tunneling from work PC to Leonie pi: success!
+
+2020-10-04
+  Upgraded leonie's OS to Raspbian 10 / Debian Buster
+  Important set up / moving points:
+  * Packages: LAMP, jpeginfo, jp2a, exiftool
+  * VNC
+  * .ssh/* (config, keys)
+  * crontab both for pi and root
+  * Web Apps: owncloud, DokuWiki, ?
+
+2021-04-04
+  Added "kresse" webcam toolkit (with ImageMagick data overlays in JPG)

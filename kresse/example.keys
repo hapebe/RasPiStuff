@@ -1,0 +1,6 @@
+; Copy this file to ".keys" and fill in 
+; your own API key and location data.
+[OpenWeatherMap]
+api_key = 12345678901234567890
+lat = 52.5067614
+lon = 13.2846523
