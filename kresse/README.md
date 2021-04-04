@@ -10,3 +10,9 @@ Kudos for software, services and knowledge to:
 * ImageMagick, specifically (https://legacy.imagemagick.org/Usage/annotating/)
 * [OpenWeatherMap](https://openweathermap.org/api) for temperature and atmospheric pressure data
 * and last not least to the people behind Raspberry Pi and its OS
+
+Dependencies
+
+There are a few packages you will need and that may not be installed on your system yet:
+
+    sudo apt install imagemagick jpeginfo
