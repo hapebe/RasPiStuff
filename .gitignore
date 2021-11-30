@@ -8,3 +8,6 @@ polarlys/**.jpg
 polarlys/**.json
 
 kresse/photos/**.jpg
+
+strom-verbrauchsmessung/primary-jpgs/**.jpg
+strom-verbrauchsmessung/**/*.jpg
