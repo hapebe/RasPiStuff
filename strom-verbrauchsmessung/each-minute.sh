@@ -5,12 +5,20 @@
 BASE="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 cd ${BASE}
 
-d=`${BASE}/date-min-iso.sh`
-echo $d >>each-minute-timestamp.log
+TMPDIR=/mnt/ramdisk
 
-TRGT=${BASE}/primary-jpgs/wattmeter-$d.jpg
+d=`${BASE}/date-minute-iso.sh`
+echo $d >>${TMPDIR}/each-minute-timestamp.log
 
-# actually take a photo:
-raspistill -t 1000 -n -md 4 -w 1296 -h 972 -o $TRGT
-# -hf -vf # horizontal/vertical flip
-# -md # mode 4 = 2x2 pixel binning, resulting in a 1296x972 bitmap
+CAMPIC=${TMPDIR}/wattmeter-$d.jpg
+CUTPIC=${TMPDIR}/wattmeter-cut-$d.jpg
+
+
+./take-picture.sh $CAMPIC
+
+
+./rotate-and-cut.sh $CAMPIC $CUTPIC
+
+
+# for actual long-time use, we don't want to keep the original pic:
+rm $CAMPIC
