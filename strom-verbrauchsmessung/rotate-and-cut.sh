@@ -20,7 +20,7 @@ TRGT=$2
 # the processing happens in the ram disk!
 cd /mnt/ramdisk
 
-convert $SRC -auto-level -auto-gamma -rotate -2.2 - | convert - -crop 408x80+11+156 $TRGT
+convert $SRC -auto-level -auto-gamma -rotate -1.0 - | convert - -crop 480x128+0+192 $TRGT
 # /home/pi/strom-verbrauchsmessung/tmp.jpg
 # - | convert - -crop 408x80+8+158 $TRGT
 # | convert - -crop 472x88+48+143 $TRGT
