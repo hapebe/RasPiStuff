@@ -10,5 +10,5 @@ polarlys/**.json
 kresse/photos/**.jpg
 
 strom-verbrauchsmessung/
-strom-verbrauchsmessung/**/*.jpg
+strom-verbrauchsmessung/**.jpg
 strom-verbrauchsmessung/primary-jpgs/*.tar
