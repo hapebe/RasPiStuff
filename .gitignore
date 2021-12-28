@@ -9,6 +9,7 @@ polarlys/**.json
 
 kresse/photos/**.jpg
 
-strom-verbrauchsmessung/
-strom-verbrauchsmessung/*.jpg
-strom-verbrauchsmessung/*.tar
+strom-verbrauchsmessung/*probe*
+strom-verbrauchsmessung/primary-jpgs/*.jpg
+strom-verbrauchsmessung/primary-jpgs/*.tar
+strom-verbrauchsmessung/daily-tars/*.tar
