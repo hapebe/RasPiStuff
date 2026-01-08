@@ -1,0 +1,1 @@
+scp -P 1237 sassn@94.16.121.68:/home/sassn/Projects/Sassnitz-zero2/photos/2026-01-03-19*.jpg .
