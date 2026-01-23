@@ -4,6 +4,8 @@
 .keys
 .secret
 
+**/.venv
+
 polarlys/**.jpg
 polarlys/**.json
 
