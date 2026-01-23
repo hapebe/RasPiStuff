@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sleep 22
+sleep 22
 
 BASE="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 cd ${BASE}

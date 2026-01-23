@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # der Monat ist hier fest voreingestellt, ggf. bearbeiten:
-month=2021-12
+month=2022-11
 
 if [ $# -lt 1 ] ; then
 	echo "usage: $0 <day of month> (${month}-..-*)"

@@ -21,7 +21,8 @@ TRGT=$2
 cd /mnt/ramdisk
 
 # convert $SRC -auto-level -auto-gamma -rotate -2.1 /home/pi/strom-verbrauchsmessung/tmp.jpg
-convert $SRC -auto-level -auto-gamma -rotate -2.1 - | convert - -crop 480x128+108+160 $TRGT
+# convert $SRC -auto-level -auto-gamma -rotate -2.6 - | convert - -crop 480x128+108+136 $TRGT
+convert $SRC -auto-level -auto-gamma -rotate -2.0 - | convert - -crop 480x128+72+180 $TRGT
 #  $TRGT
 # - | convert - -crop 408x80+8+158 $TRGT
 # | convert - -crop 472x88+48+143 $TRGT

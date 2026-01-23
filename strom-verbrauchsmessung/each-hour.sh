@@ -16,8 +16,7 @@ else
     sleep 82
 fi
 
-ls $TMPDIR/$CUTPIC_PATTERN
+# ls $TMPDIR/$CUTPIC_PATTERN
 cd $TMPDIR
-tar cf ${BASE}/primary-jpgs/$d.tar $CUTPIC_PATTERN
-# 2>/dev/null
+tar cf ${BASE}/primary-jpgs/$d.tar $CUTPIC_PATTERN >/dev/null 2>/dev/null
 rm -f $CUTPIC_PATTERN
