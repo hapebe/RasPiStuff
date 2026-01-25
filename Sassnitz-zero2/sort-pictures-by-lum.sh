@@ -4,7 +4,9 @@
 # multiple version of the same photos, e.g.:
 #   ./sort-pictures-by-lum.sh *.jpg
 
-desirable_lum=125
+desirable_lum=$(./choose-desirable-luminance.sh)
+# printf "desirable luminance: %.d\n" "$desirable_lum"
+
 declare -A files
 for var in "$@" ; do
     lum=$(luminance "$var")
